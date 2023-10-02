@@ -15,6 +15,38 @@ a,
   transition: 0.4s;
 }
 
+.roundinput {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border-width: 1px;
+}
+
+.flex-row {
+  display: flex;
+  direction: row;
+}
+
+.flex-end {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  margin-left: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  text-align: center;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
